@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2325" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/background_cycle.xml" value="0.2325" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/changebackground_tab.xml" value="0.161" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/changecolortext_radiobutton.xml" value="0.161" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/changetext_color.xml" value="0.2325" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/custom_orderbutton_radius.xml" value="0.2325" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/custom_radiogroup.xml" value="0.2325" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/customradio_food.xml" value="0.2325" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/customradio_places.xml" value="0.2325" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2325" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/ic_outline_account_circle_24.xml" value="0.2325" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/ic_outline_lock_24.xml" value="0.2325" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/ic_outline_login_24.xml" value="0.2325" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/drawable/radius_button.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/activity_chi_tiet2.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/activity_flashscreen.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/activity_homepage.xml" value="0.16304347826086957" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/activity_slash_screen.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/activity_slashscreen.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/custom_layout_binhluan.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/custom_layout_recyclerview_places.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/forgot_password_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/fragment_food.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/fragment_places.xml" value="0.28541666666666665" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/layout_binhluan_chitiet.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/layout_chitietquanan.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/layout_custom_hinhbinhluan.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/layout_main_chitietquanan.xml" value="0.2563405797101449" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/layout_tinhnang_chititetquanan.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/layout_toolbar.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/log_in_layout.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Foody/app/src/main/res/layout/register_layout.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

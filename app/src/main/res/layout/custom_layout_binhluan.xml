@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/containerBinhluan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageuser"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/bachira"
+            android:text="6.8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTieudeBinhLuan"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gogi House"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/txtNoiDungBinhLuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="36 Triệu Quang Phục Quận 4" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/chandiemBinhLuan1"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:text="5.5" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewHinhBinhLuan"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

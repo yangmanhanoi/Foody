@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "536119637602",
+    "firebase_url": "https://clone-foody-34d2d-default-rtdb.firebaseio.com",
+    "project_id": "clone-foody-34d2d",
+    "storage_bucket": "clone-foody-34d2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536119637602:android:e7d653a86f44f29e09c33b",
+        "android_client_info": {
+          "package_name": "com.dtn.foody"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536119637602-d11nm2fla7rp9ebpqfeso056luuthm3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN3Gk5ubpNPULRA_ZH3L9CCnMX_AHlszE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536119637602-d11nm2fla7rp9ebpqfeso056luuthm3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

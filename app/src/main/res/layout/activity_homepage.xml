@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/areas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundHomepage"
+    android:orientation="vertical"
+    tools:context=".View.HomepageActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#CD2027">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/chuf" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_radiogroup"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioPlaces"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customradio_places"
+                android:button="@android:color/transparent"
+                android:checked="true"
+                android:padding="10dp"
+                android:text="Places"
+                android:textColor="@drawable/changecolortext_radiobutton" />
+
+            <RadioButton
+                android:id="@+id/radioFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customradio_food"
+                android:button="@android:color/transparent"
+                android:padding="10dp"
+                android:text="Food"
+                android:textColor="@drawable/changecolortext_radiobutton" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_add_white_24dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/khungchuaFragment"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="wrap_content"
+            android:id="@+id/viewPager"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+</LinearLayout>

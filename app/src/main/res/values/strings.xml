@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Foody</string>
+    <string name="email">email </string>
+    <string name="password">mật khẩu </string>
+    <string name="registerError">Vui lòng nhập </string>
+    <string name="announce">Mật khẩu nhập lại không đúng </string>
+    <string name="message">Đang xử lý</string>
+    <string name="logIn">Đăng nhập thành công</string>
+
+</resources>

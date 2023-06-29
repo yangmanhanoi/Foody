@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="250dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/foodytext"
+                tools:layout_editor_absoluteX="-9dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#F8FFFFFF"
+                android:drawableLeft="@drawable/ic_outline_account_circle_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Email đăng nhập"
+                android:inputType="textPersonName"
+                android:textColor="#F2FFFFFF"
+                android:textColorHint="#F7FFFFFF" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FAFFFFFF"
+                android:drawableLeft="@drawable/ic_outline_lock_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:textColorHint="#FDFFFFFF" />
+
+            <EditText
+                android:id="@+id/passwordagain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="40dp"
+                android:backgroundTint="#FAFFFFFF"
+                android:drawableLeft="@drawable/ic_outline_lock_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Nhập lại mật khẩu"
+                android:inputType="textPassword"
+                android:textColorHint="#FDFFFFFF" />
+
+            <Button
+                android:id="@+id/Restore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/radius_button"
+                android:text="Đăng ký"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>
